@@ -1,0 +1,179 @@
+body {
+    margin-top: -16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #000000;
+    color: #000000;
+    
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .nav-item {
+    margin-right: 250px;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 150px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #d4be74;
+  }
+  
+  .nav-item a:hover {
+    color: #ffffff;
+  }
+  body {
+    margin:-15px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .content {
+    padding: 20px;
+    /* Adjust padding to give space above the footer */
+    padding-bottom: 60px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  Using Flexbox:
+  
+  HTML:
+  
+  html
+  Copy code
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Footer at Bottom</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <!-- Your page content here -->
+      </div>
+    
+      <footer class="footer">
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+  </html>
+  CSS (styles.css):
+  
+  css
+  Copy code
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #000000;
+    color: #d4be74;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+
+
+
+
+
+
+
+  body {
+    background-color:  rgb(206, 184, 123);
+  }
+
+
+
+
+
+
+  .contact{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./IMAGES/background\ contact1.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0,0, 0.8);
+    width: 100%;
+    background-position: unset;
+}
+.contactform{
+    padding: 75px 50px;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 15px 50px rgba(0, 0,0, 0.8);
+    max-width: 500px;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: left;
+}
+.contactform .inputboite{
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.contactform h2{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+.contactform .inputboite input,
+.contactform .inputboite textarea{
+    width: 100%;
+    border: 1px solide #ffffff;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 20px;
+    font-weight: 300;
+    resize: none;
+}
+.contactform .inputboite input[type="submit"]{
+    font-size: 1em;
+    font-weight: 700;
+    color: #d4be74;
+    background: rgb(0, 0, 0);
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+  
+}

@@ -1,0 +1,909 @@
+.forsection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1.375em 1.25em 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 3.75rem auto 2.5rem;
+    color: #fff;
+    font-family: Work Sans, Arial, sans-serif;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+  }
+  .for1 select {
+    background-color: #00ccb1;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+  }
+  .for2 select {
+    background-color: #3d83df;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+  }
+  .for3 select {
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+  }
+  .for1 #for1title,
+  .for2 #for2title,
+  .for3 #for3title {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+    font-family: Work Sans, Arial, sans-serif;
+  }
+  .forsection img {
+    width: 25px;
+    height: auto;
+  }
+  /* done section 2 */
+  .section3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section3 div {
+    width: 100%;
+    display: flex;
+  }
+  #section3title {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+  }
+  #section3logos {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+  #section3logos img {
+    width: 7.5rem;
+    object-fit: contain;
+  }
+  /* section 3 done */
+  .section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: #000000;
+    padding-left: 50px;
+  }
+  .section4header {
+    font-family: Work Sans, Arial, sans-serif;
+    padding-top: 60px;
+  }
+  .section4header h2 {
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+  }
+  .section4header p {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 50px;
+  }
+  .first2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .second2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .section4fourparts {
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+  }
+  .section4fourparts h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+  }
+  .section4fourparts p {
+    font-size: 0.8125em;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+  }
+  #leader {
+    margin-bottom: 20px;
+  }
+  #appointments {
+    margin-bottom: 20px;
+  }
+  #leader,
+  #patients,
+  #appointments,
+  #doctors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+  }
+  #leader img,
+  #patients img,
+  #appointments img,
+  #doctors img {
+    width: 25px;
+    height: auto;
+  }
+  .section4fourparts div {
+    height: 500px;
+    width: 250px;
+  }
+  /* Section 4 done */
+  .section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+  }
+  .section5 h3 {
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+  }
+  .section5 p {
+    margin: 1.6em 0;
+    line-height: 1.7142857143;
+    text-align: center;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+  }
+  /* section 5 done */
+  .section6 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; gap: 0.5cm;
+    justify-content: center;
+  }
+  .section6 div {
+    border-radius: 3%;
+    margin: 0.44%;
+  }
+  
+  .section6 button {
+    margin-top: 0.5cm;
+    display: flex;
+    gap: 2cm;
+    justify-content: center;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: Roboto, Arial, sans-serif;
+    margin-right: 20px;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .section6 p {
+    font-size: medium;
+    color: #747474;
+    font-family: Roboto, Arial, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .country div:hover {
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+  }
+  div .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* section 6 done */
+  .section7 h1 {
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: center;
+  }
+  .section7 button {
+    margin-left: 120px;
+    background-color: #3d83df;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    border-radius: 4px;
+    text-align: center;
+    border: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+  }
+  .section7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    background-color: rgb(183, 231, 240);
+  }
+  .header main div{
+    display: space-between;
+  }
+
+
+
+  body {
+    margin-top: -16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #000000;
+    color: #000000;
+    
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .nav-item {
+    margin-right: 250px;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 150px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #d4be74;
+  }
+  
+  .nav-item a:hover {
+    color: #ffffff;
+  }
+  body {
+    margin:-15px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .content {
+    padding: 20px;
+    /* Adjust padding to give space above the footer */
+    padding-bottom: 60px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  Using Flexbox:
+  
+  HTML:
+  
+  html
+  Copy code
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Footer at Bottom</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <!-- Your page content here -->
+      </div>
+    
+      <footer class="footer">
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+  </html>
+  CSS (styles.css):
+  
+  css
+  Copy code
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #000000;
+    color: #d4be74;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  body {
+    background-color: rgb(206, 184, 123);
+  }
+
+
+
+
+
+  .section3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section3 div {
+    width: 60%;
+    display: flex;
+  }
+  #section3title {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+  }
+  #section3logos {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+  #section3logos img {
+    width: 7.5rem;
+    object-fit: contain;
+  }
+  /* section 3 done */
+  .section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: #d0faf4;
+    padding-left: 50px;
+  }
+  .section4header {
+    font-family: Work Sans, Arial, sans-serif;
+    padding-top: 60px;
+  }
+  .section4header h2 {
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+  }
+  .section4header p {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 50px;
+  }
+  .first2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .second2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .section4fourparts {
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+  }
+  .section4fourparts h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+  }
+  .section4fourparts p {
+    font-size: 0.8125em;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+  }
+  #leader {
+    margin-bottom: 20px;
+  }
+  #appointments {
+    margin-bottom: 20px;
+  }
+  #leader,
+  #patients,
+  #appointments,
+  #doctors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+  }
+  #leader img,
+  #patients img,
+  #appointments img,
+  #doctors img {
+    width: 25px;
+    height: auto;
+  }
+  .section4fourparts div {
+    height: 500px;
+    width: 250px;
+  }
+  /* Section 4 done */
+  .section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+  }
+  .section5 h3 {
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+  }
+  .section5 p {
+    margin: 1.6em 0;
+    line-height: 1.7142857143;
+    text-align: center;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+  }
+  /* section 5 done */
+  .section6 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; gap: 0.5cm;
+    justify-content: center;
+  }
+  .section6 div {
+    border-radius: 3%;
+    margin: 0.44%;
+  }
+  
+  .section6 button {
+    margin-top: 0.5cm;
+    display: flex;
+    gap: 2cm;
+    justify-content: center;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: Roboto, Arial, sans-serif;
+    margin-right: 20px;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .section6 p {
+    font-size: medium;
+    color: #747474;
+    font-family: Roboto, Arial, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .country div:hover {
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+  }
+  div .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* section 6 done */
+  .section7 h1 {
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: center;
+  }
+  .section7 button {
+    margin-left: 120px;
+    background-color: #3d83df;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    border-radius: 4px;
+    text-align: center;
+    border: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+  }
+  .section7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* section7 done */
+  footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  footer p {
+    padding-top: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  section{
+    padding: 4rem 0 3rem;
+}
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 5%;
+    text-align: center;
+}
+/*.container{
+    font-size: 1.8rem;
+    cursor: pointer;
+}*/
+.bannier{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./IMAGES/Leggings-de-Sport-sans-couture-pour-femmes-ensembles-de-2-pi-ces-manches-courtes-pantalon-de.webp);
+    background-size: cover;
+}
+.bannier .contenu{
+    max-width: 70%;
+    text-align: center;
+}
+.bannier .contenu h2{
+    color: rgb(51, 121, 226);
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+
+.suivant, .precedent {
+    color: rgb(221, 130, 130);
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.suivant {
+    right: 1rem;
+}
+.precedent {
+    left: 1rem;
+}
+.btn01{
+    font-size: 1em;
+    color: blanchedalmond;
+    background-color: rgb(120, 120, 240);
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+.btn02{
+    font-size: 1em;
+    color: blanchedalmond;
+    background-color: rgb(120, 120, 240);
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px; 
+    border-radius: 25px;
+}
+.btn01:hover{
+    letter-spacing: 4px;
+}
+.produit{
+    margin-top: -2rem;
+
+}
+.contenu1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px
+}
+.box{
+    width: 350px;
+    margin: 20px;
+    border: 20px solide #fff;
+    box-shadow: 20px 15px 35px rgba(0, 0,0, 0.8);
+}
+.box:hover{
+    padding:10px;
+    border: 1px solid var(--text-color);
+    transition: 0.4s;
+}
+.imbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.imbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.product-img{
+    width:100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+.box .text{
+    font-weight: 300px;
+    color: #111;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+.box .text h3 h4{
+    font-weight: 400;
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./IMAGES/background\ contact1.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0,0, 0.8);
+    width: 100%;
+    background-position: unset;
+}
+.contactform{
+    padding: 75px 50px;
+    background: rgb(192, 185, 185);
+    box-shadow: 5px 15px 50px rgba(0, 0,0, 0.8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+}
+.contactform .inputboite{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactform h2{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.contactform .inputboite input,
+.contactform .inputboite textarea{
+    width: 100%;
+    border: 1px solide #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.contactform .inputboite input[type="submit"]{
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    background: rgb(228, 140, 140);
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+  
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
